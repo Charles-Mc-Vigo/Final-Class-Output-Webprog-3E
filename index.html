@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ranking Board</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        *{
+            font-family: "Poppins",sans-serif;
+        }
+        body {
+        background-image: url('/assets/jealene-created-bg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        }
+
+        .header-right{
+            display: flex;
+            height: 100vh;
+            text-align: center;
+            font-size: 70px;
+            font-weight: 900;
+            color: green;
+        }
+
+        .ranking-board {
+        font-family: "Poppins", sans-serif;
+        margin-top: 20px;
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        color: white;
+        }
+
+        th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        }
+
+        .row.header {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        }
+
+        .container {
+        max-width: 800px; 
+        }
+
+        #image{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        #image-header{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container header-right">
+        <div class="title col">MSC Olympic Medal Ranking Board</div>
+    </div> -->
+    <div class="container">
+        <div class="ranking-board">
+        <table class="table">
+            <thead class="thead-light">
+            <tr>
+                <th>Logo</th>
+                <th>Rank</th>
+                <th>Delegations</th>
+                <th>Sports</th>
+                <th>Cultural</th>
+                <th>Academics</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/artisan.jpg" alt="">
+                </td>
+                <td>1</td>
+                <td>CIT - ARTISAN</td>
+                <td>252</td>
+                <td>75</td>
+                <td>-</td>
+                <td>327</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/matrix.jpg" alt="">
+                </td>
+                <td>2</td>
+                <td>CENG - MATRIX</td>
+                <td>104</td>
+                <td>83</td>
+                <td>38</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/panacea.jpg" alt="">
+                </td>
+                <td>3</td>
+                <td>CAHS - PANACEA</td>
+                <td>107</td>
+                <td>42</td>
+                <td>11</td>
+                <td>160</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/cryptoknights.jpg" alt="">
+                </td>
+                <td>4</td>
+                <td>CICS - CRYPTO</td>
+                <td>55</td>
+                <td>88</td>
+                <td>11</td>
+                <td>154</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/nexus.jpg" alt="">
+                </td>
+                <td>5</td>
+                <td>CASS - NEXUS</td>
+                <td>82</td>
+                <td>35</td>
+                <td>30</td>
+                <td>147</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/proxis.jpg" alt="">
+                </td>
+                <td>6</td>
+                <td>CGOV - PRAXIS</td>
+                <td>97</td>
+                <td>36</td>
+                <td>3</td>
+                <td>136</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/aces.jpg" alt="">
+                </td>
+                <td>7</td>
+                <td>MSC SANTA CRUZ - ACES</td>
+                <td>45</td>
+                <td>44</td>
+                <td>9</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/trojans.jpg" alt="">
+                </td>
+                <td>8</td>
+                <td>CBA - TROJANS</td>
+                <td>10</td>
+                <td>65</td>
+                <td>14</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/blue-flames.jpg" alt="">
+                </td>
+                <td>9</td>
+                <td>COED - BLUE FLAMES</td>
+                <td>-</td>
+                <td>64</td>
+                <td>14</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/ecocentrix.jpg" alt="">
+                </td>
+                <td>10</td>
+                <td>CES - ECOCENTRIX</td>
+                <td>5</td>
+                <td>10</td>
+                <td>29</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/ranchers.jpg" alt="">
+                </td>
+                <td>11</td>
+                <td>CAGRI - RANCHERS</td>
+                <td>15</td>
+                <td>6</td>
+                <td>1</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="image" src="/assets/seiners.jpg" alt="">
+                </td>
+                <td>12</td>
+                <td>CFAS - SEINERS</td>
+                <td>5</td>
+                <td>-</td>
+                <td>6</td>
+                <td>11</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <!-- <div class="container header-left">
+        <div class="row">
+            <div class="col-md text-center">
+                <img id="image-header" src="/assets/msclogo.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md text-center">
+                <img id="image-header" src="/assets/logo.png" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
