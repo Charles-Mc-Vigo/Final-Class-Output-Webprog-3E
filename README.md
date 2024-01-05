@@ -8,7 +8,7 @@ Name
 1. ENCARNACION, Jennelyn L.
 2. FERRER, Johanna Mae N.
 3. FETIZANAN, John Kenneth F.
-4. ICASIANO, Rex Angelo (irregular)
+4. ICASIANO, Rex Angelo
 5. JORNADAL, Jarnal Sin R.
 6. LABRADOR, Jose Angelo L.
 7. LARRAQUEL, Mark Paulo B.
@@ -16,10 +16,10 @@ Name
 9. LINGON, Jerome M.
 10. MAGALLANES, Myca R.
 11. MATINING, Jeleane M.
-12. MATIRA, Patrick Miguel M. (irregular)
+12. MATIRA, Patrick Miguel M.
 13. MONTERO, Kenneth Paul T.
 14. MURILLO, Lyka R.
-15. NOMBREFIA, Marco L. (irregular)
+15. NOMBREFIA, Marco L.
 16. OCTA, Vanessa R.
 17. PINEDA, Rheabel P.
 18. RAVANERA, Erica M.
