@@ -1,12 +1,15 @@
 *{
     font-family: "Poppins",sans-serif;
 }
+
+/* Background styles for the body */
 body {
 background-image: url('./assets/msc-bg-green.jpg');
 background-size: cover;
 background-attachment: fixed;
 }
 
+/* Header styles */
 .header{
     text-align: center;
     color: #006400;
@@ -14,12 +17,14 @@ background-attachment: fixed;
     font-weight: bold;
 }
 
+/* Footer styles */
 .footer{
     color: #f2f2f2;
     font-weight: 900;
     font-size: 20px;
 }
 
+/* Ranking board styles */
 .ranking-board {
 font-family: "Poppins", sans-serif;
 margin-top: 20px;
@@ -30,12 +35,14 @@ font-weight: bold;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Table styles */
 table {
 border-collapse: collapse;
 width: 100%;
 color: white;
 }
 
+/* Table header and data cell styles */
 th, td {
 border: 1px solid #ddd;
 padding: 10px;
@@ -43,24 +50,28 @@ text-align: center;
 color: white;
 }
 
+/* Header row background color */
 .row.header {
 background-color: #f2f2f2;
 font-weight: bold;
 }
 
+/* Container max-width */
 .container {
 max-width: 800px; 
 }
 
+/* Images sizes for images */
 #image{
     height: 50px;
     width: 50px;
     border-radius: 50%;
 }
 
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     body {
-        background-size: auto; 
+        background-size: contain; 
         background-attachment: scroll; 
     }
 
@@ -85,7 +96,7 @@ max-width: 800px;
     }
 
     #image {
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: auto;
     }
 }
