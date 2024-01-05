@@ -30,6 +30,4 @@ Name
 23. SANTOS, Jayvez Reyniel O.
 24. SINSOA, Ashbei Andrea A.
 25. TOLIN, Elvin P.
-26. ULRICH, Mark M.
-27. VIGO, Charles Mc L.
-28. YAP, Roy M.
+26. VIGO, Charles Mc L.
