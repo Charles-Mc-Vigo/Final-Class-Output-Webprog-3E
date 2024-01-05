@@ -1,6 +1,8 @@
 
 
-The "MSC Olympic Medal Ranking Board" serves as the final output requirement for the Web Programming 1 subject at Marinduque State College, within the Software Development course, Section 3E. This comprehensive project demonstrates the students' proficiency in web development, incorporating various technologies and methodologies learned throughout the course.Students of Software Development 3E.
+The "MSC Olympic Medal Ranking Board" serves as the final output requirement for the Web Programming 1 subject at Marinduque State College, within the Software Development course, Section 3E. This comprehensive project demonstrates the students' proficiency in web development, incorporating various technologies and methodologies learned throughout the course.
+
+Students of Software Development 3E.
 
 Name
 1. ENCARNACION, Jennelyn L.
