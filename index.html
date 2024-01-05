@@ -9,19 +9,22 @@
             font-family: "Poppins",sans-serif;
         }
         body {
-        background-image: url('/assets/msc-bg.jpg');
+        background-image: url('/assets/msc-bg-green.jpg');
         background-size: cover;
         background-attachment: fixed;
-        display: flex;
         }
 
-        .header-right{
-            display: flex;
-            height: 100vh;
+        .header{
             text-align: center;
-            font-size: 70px;
+            color: #006400;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .footer{
+            color: #f2f2f2;
             font-weight: 900;
-            color: green;
+            font-size: 20px;
         }
 
         .ranking-board {
@@ -61,18 +64,15 @@
             width: 50px;
             border-radius: 50%;
         }
-        #image-header{
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-        }
     </style>
 </head>
 
 <body>
-    <!-- <div class="container header-right">
-        <div class="title col">MSC Olympic Medal Ranking Board</div>
-    </div> -->
+    <div class="container header p-3">
+        <div class="row">
+            <div class="title col">MSC Olympic Medal Ranking Board</div>
+        </div>
+    </div>
     <div class="container">
         <div class="ranking-board">
         <table class="table">
@@ -224,6 +224,8 @@
         </table>
         </div>
     </div>
+    <div class="footer text-center p-2">MSC Olympic Medal Ranking Board - BSIT 3E</div>
+
     <!-- <div class="container header-left">
         <div class="row">
             <div class="col-md text-center">
